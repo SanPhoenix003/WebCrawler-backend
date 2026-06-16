@@ -1,8 +1,8 @@
 import express from "express";
-import { getCrawlerSites } from "../controllers/crawlerController.js";
+import { crawlerController } from "../controllers/crawlerController.js";
 
 const router = express.Router();
 
-router.get("/", getCrawlerSites);
+router.get("/", crawlerController);
 
 export default router;
