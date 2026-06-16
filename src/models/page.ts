@@ -11,4 +11,4 @@ const page = new mongoose.Schema(
   },
 );
 
-export const pageModal = mongoose.model("page", page);
+export const pageModel = mongoose.model("page", page);
